@@ -26,7 +26,7 @@
     }
   },
   "variables": {
-    "storageAccountName": "[concat(parameters('projectName'), 'Storage')]",
+    "storageAccountName": "[concat(parameters('projectName'), 'storage')]",
     "webAppName": "[concat(parameters('projectName'), 'WebApp')]",
     "appServicePlanName": "[concat(parameters('projectName'), 'Plan')]"
   },
